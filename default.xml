@@ -19,7 +19,7 @@
            remote="aosp"
            sync-j="4" />
 
- <project path="build" name="soupy031/omni_build" remote="gh" revision="android-4.3" groups="pdk" >
+ <project path="build" name="omnirom/omni_build" remote="gh" revision="android-4.3" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
