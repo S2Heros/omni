@@ -405,4 +405,5 @@
   <project path="device/samsung/qcom-common" name="soupy031/android_device_samsung_qcom-common" remote="gh" revision="cm-10.2" />
   <project path="device/samsung/celox-common" name="soupy031/android_device_samsung_celox-common" remote="gh" revision="cm-10.2" />
   <project path="vendor/samsung" name="soupy031/proprietary_vendor_hercules" remote="gh" revision="cm-10.2" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.8" name="soupy031/LINARO" remote="gh" revision="master" />
 </manifest>
