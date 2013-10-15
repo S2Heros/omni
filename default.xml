@@ -253,7 +253,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.3" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.3" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-4.3" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="s2" revision="cm-10.2" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.3" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-4.3" />
@@ -403,7 +403,7 @@
   <project name="CyanogenMod/android_device_samsung_skyrocket" path="device/samsung/skyrocket" remote="gh" revision="cm-10.2" />
   <project name="CyanogenMod/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="gh" revision="cm-10.2" />
   <project name="soupy031/HERC-KERNELS" path="kernel/samsung/hercules" remote="gh" revision="diablo-jb43" />
-  <project name="/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="s2" revision="cm-10.2" />
+  <project name="android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="s2" revision="cm-10.2" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="gh" revision="cm-10.2" />
   <project path="device/samsung/qcom-common" name="soupy031/android_device_samsung_qcom-common" remote="gh" revision="cm-10.2" />
   <project path="device/samsung/celox-common" name="soupy031/android_device_samsung_celox-common" remote="gh" revision="cm-10.2" />
