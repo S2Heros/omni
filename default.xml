@@ -8,6 +8,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
+  <remote  name="s2"
+           fetch="https://github.com/S2Heros" />
+
   <remote  name="gh"
            fetch="https://github.com/" />
 
@@ -19,14 +22,14 @@
            remote="aosp"
            sync-j="4" />
 
- <project path="build" name="android_build" remote="omnirom" revision="android-4.3" groups="pdk" >
+ <project path="build" name="omni_build" remote="s2" revision="android-4.3" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" name="S2Heros/omni" remote="gh" revision="android-4.3" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.3" />
+  <project path="bionic" name="android_bionic" remote="s2" revision="cm-10.2" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -399,8 +402,8 @@
   <project name="CyanogenMod/android_device_samsung_hercules" path="device/samsung/hercules" remote="gh" revision="cm-10.2" />
   <project name="CyanogenMod/android_device_samsung_skyrocket" path="device/samsung/skyrocket" remote="gh" revision="cm-10.2" />
   <project name="CyanogenMod/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="gh" revision="cm-10.2" />
-  <project name="soupy031/HERC-KERNELS" path="device/samsung/hercules-kernel" remote="gh" revision="diablo-jb43" />
-  <project name="soupy031/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="gh" revision="cm-10.2" />
+  <project name="soupy031/HERC-KERNELS" path="kernel/samsung/hercules" remote="gh" revision="diablo-jb43" />
+  <project name="/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="s2" revision="cm-10.2" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="gh" revision="cm-10.2" />
   <project path="device/samsung/qcom-common" name="soupy031/android_device_samsung_qcom-common" remote="gh" revision="cm-10.2" />
   <project path="device/samsung/celox-common" name="soupy031/android_device_samsung_celox-common" remote="gh" revision="cm-10.2" />
